@@ -37,5 +37,5 @@ function sendOtpEmail($email, $otp) {
     }
 }
 
-sendOtpEmail('satpatisudipto@gmail.com', '123456');
+sendOtpEmail('sample gmail', '123456');
 ?>
