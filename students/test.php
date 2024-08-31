@@ -15,7 +15,7 @@ function sendOtpEmail($email, $otp) {
         $mail->Username = 'youremail'; // Your Gmail address
         $mail->Password = 'yur password'; // Your Gmail password or App Password
         $mail->SMTPSecure = 'tls';
-        $mail->Port = 587;
+        $mail->Port = your port;
 
         // Debugging
         $mail->SMTPDebug = 2; // Enable detailed debug output
