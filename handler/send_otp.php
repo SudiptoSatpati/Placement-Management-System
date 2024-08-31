@@ -19,12 +19,12 @@ if (isset($_POST['email'])) {
         $mail->isSMTP();
         $mail->Host = 'smtp.gmail.com';
         $mail->SMTPAuth = true;
-        $mail->Username = 'placement.cell.cse2021.25@gmail.com';
-        $mail->Password = 'hjjo vrhe hqkg jfiw';
+        $mail->Username = 'youor email';
+        $mail->Password = 'your gmail password'
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
         $mail->Port = 587;
 
-        $mail->setFrom('placement.cell.cse2021.25@gmail.com', 'Placement CSE');
+        $mail->setFrom('your email', 'Placement CSE');
         $mail->addAddress($email);
 
         $mail->isHTML(true);
