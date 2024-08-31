@@ -22,7 +22,7 @@ if (isset($_POST['email'])) {
         $mail->Username = 'youor email';
         $mail->Password = 'your gmail password'
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
-        $mail->Port = 587;
+        $mail->Port = your port;
 
         $mail->setFrom('your email', 'Placement CSE');
         $mail->addAddress($email);
