@@ -62,7 +62,7 @@ function sendOtpEmail($email, $otp) {
         $mail->Username = 'your email'; // Your Gmail address
         $mail->Password = 'your password'; // Your Gmail app password
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS; // Secure transfer
-        $mail->Port = 587;
+        $mail->Port = your port;
 
         // Email settings
         $mail->setFrom('your email', 'Placement CSE');
