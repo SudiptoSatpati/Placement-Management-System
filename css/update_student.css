@@ -1,0 +1,67 @@
+.fixed-buttons {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  display: flex;
+  gap: 10px;
+  z-index: 1000; /* Ensures buttons are on top of other content */
+}
+
+body {
+  position: relative;
+}
+.fixed-buttons .btn {
+  min-width: 100px; /* Adjust as needed */
+}
+
+.btn-custom,
+.btn-copy,
+.btn-back {
+  border-radius: 0.25rem;
+  padding: 10px 20px;
+  font-size: 14px;
+}
+
+.btn-copy {
+  background-color: #28a745;
+  color: white;
+}
+
+.btn-copy:hover {
+  background-color: #218838;
+}
+
+.btn-back {
+  background-color: #6c757d;
+  color: white;
+}
+
+.btn-back:hover {
+  background-color: #5a6268;
+}
+
+.btn-custom {
+  background-color: #6f42c1;
+  color: white;
+}
+
+.btn-custom:hover {
+  background-color: #5a32a3;
+}
+
+.buttons-css {
+  position: absolute;
+  bottom: -9%;
+  left: 42%;
+}
+
+.form-buttons {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+}
+
+.form-buttons .btn {
+  margin-right: 10px;
+}
