@@ -57,7 +57,7 @@ function sendOtpEmail($email, $otp) {
     try {
         // SMTP settings
         $mail->isSMTP();
-        $mail->Host = 'smtp.gmail.com';
+        $mail->Host = 'provider ';
         $mail->SMTPAuth = true;
         $mail->Username = 'your email'; // Your Gmail address
         $mail->Password = 'your password'; // Your Gmail app password
