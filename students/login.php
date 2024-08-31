@@ -59,13 +59,13 @@ function sendOtpEmail($email, $otp) {
         $mail->isSMTP();
         $mail->Host = 'smtp.gmail.com';
         $mail->SMTPAuth = true;
-        $mail->Username = 'placement.cell.cse2021.25@gmail.com'; // Your Gmail address
-        $mail->Password = 'hjjo vrhe hqkg jfiw'; // Your Gmail app password
+        $mail->Username = 'your email'; // Your Gmail address
+        $mail->Password = 'your password'; // Your Gmail app password
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS; // Secure transfer
         $mail->Port = 587;
 
         // Email settings
-        $mail->setFrom('placement.cell.cse2021.25@gmail.com', 'Placement CSE');
+        $mail->setFrom('your email', 'Placement CSE');
         $mail->addAddress($email);
         $mail->isHTML(true);
         $mail->Subject = 'OTP for Login ';
